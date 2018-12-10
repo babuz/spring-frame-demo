@@ -1,0 +1,11 @@
+apply plugin: 'scala'
+apply plugin: 'com.github.lkishalmi.gatling'
+
+dependencies {
+
+    compile 'org.scala-lang:scala-library:2.11.8'
+}
+
+gatling {
+    logLevel = "WARNN"
+}

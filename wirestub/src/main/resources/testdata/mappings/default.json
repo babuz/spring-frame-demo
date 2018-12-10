@@ -1,0 +1,22 @@
+{
+  "priority": 99,
+  "request": {
+    "method": "POST",
+    "url": "/student",
+    "headers" :{
+      "Content-Type" : "application/json"
+    },
+    "bodyPatterns": [
+      {
+        "matches": "\\{\"studentId\":\"1001\"\\}"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers" :{
+      "Content-Type" : "application/json"
+    },
+    "bodyFileName" :"client/student-1001.json"
+  }
+}
